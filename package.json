@@ -1,5 +1,5 @@
 {
-  "name": "printer",
+  "name": "@lezer-unofficial/printer",
   "version": "1.0.0",
   "description": "Parse tree printer for the lezer incremental parser",
   "main": "dist/index.cjs",
@@ -12,11 +12,14 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "watch": "node build.js --watch",
-    "prepare": "node build.js; tsc -p tsconfig.json"
+    "prepare": "node build.js; tsc -p tsconfig.json",
+    "test": "tsx test/main.ts"
   },
   "devDependencies": {
+    "@lezer/javascript": "^1.4.7",
     "@marijn/buildtool": "^0.1.5",
     "@types/node": "^20.7.0",
+    "tsx": "^3.13.0",
     "typescript": "^5.2.2"
   },
   "files": [
