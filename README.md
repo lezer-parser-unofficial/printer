@@ -4,6 +4,14 @@ This is a parse tree pretty printer for the [lezer](https://github.com/lezer-par
 
 ## Usage
 
+If you use `npm`, add this package to `devDependencies` in `package.json`.
+
+```json
+"devDependencies": {
+    "printer": "deemp/printer"
+}
+```
+
 After you've [generated](https://github.com/lezer-parser/generator) a parser for your `.grammar` and prepared a `doc` string containing the code to parse, you can print a parse tree for this code.
 
 ```ts
