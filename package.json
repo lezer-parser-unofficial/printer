@@ -12,11 +12,11 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "watch": "node build.js --watch",
-    "prepare": "node build.js; npx tsc src/index.ts -d --outDir dist"
+    "prepare": "node build.js; tsc -p tsconfig.json"
   },
   "devDependencies": {
     "@marijn/buildtool": "^0.1.5",
-    "@types/node": "^20.6.2",
+    "@types/node": "^20.7.0",
     "typescript": "^5.2.2"
   },
   "files": ["dist"],
