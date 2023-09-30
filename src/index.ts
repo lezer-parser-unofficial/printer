@@ -1,30 +1,8 @@
 // Original implementation
 // https://gist.github.com/msteen/e4828fbf25d6efef73576fc43ac479d2
 
+import { Text } from '@codemirror/state'
 import { Input, NodeType, SyntaxNode, Tree, TreeCursor } from '@lezer/common'
-
-declare abstract class Line {
-  /**
-  The position of the start of the line.
-  */
-  readonly from: number;
-  /**
-  This line's line number (1-based).
-  */
-  readonly number: number;
-}
-
-declare abstract class Text implements Iterable<string> {
-  /**
-  Get the line description around the given position.
-  */
-  lineAt(pos: number): Line;
-  [Symbol.iterator]: () => Iterator<string>;
-  /**
-  Create a `Text` instance for the given array of lines.
-  */
-  static of(text: readonly string[]): Text;
-}
 
 class StringInput implements Input {
   constructor(private readonly input: string) { }

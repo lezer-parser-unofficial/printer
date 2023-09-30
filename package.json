@@ -19,9 +19,12 @@
     "@types/node": "^20.7.0",
     "typescript": "^5.2.2"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "dependencies": {
+    "@codemirror/state": "^6.2.1",
     "@lezer/common": "^1.1.0"
   }
 }
