@@ -1,5 +1,5 @@
 {
-  "name": "printer",
+  "name": "@lezer-unofficial/printer",
   "version": "1.0.1",
   "description": "Parse tree printer for the lezer incremental parser",
   "main": "dist/index.cjs",
