@@ -27,7 +27,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/deemp/printer.git"
+    "url": "https://github.com/lezer-parser-unofficial/printer.git"
   },
   "license": "MIT",
   "dependencies": {
