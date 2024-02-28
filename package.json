@@ -1,6 +1,6 @@
 {
   "name": "@lezer-unofficial/printer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Parse tree printer for the lezer incremental parser",
   "main": "dist/index.cjs",
   "type": "module",
