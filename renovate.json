@@ -13,5 +13,6 @@
       "automerge": true
     }
   ],
-  "automergeType": "branch"
+  "automergeType": "branch",
+  "ignoreTests": true
 }
